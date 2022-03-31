@@ -4,7 +4,6 @@ var amountOfSeconds = AskNumber.Ask();
 if (amountOfSeconds == null)
 {
     return;
-    
 }
 uint secondsInMinute = 60;
 uint secondsInHour = 60 * secondsInMinute;
