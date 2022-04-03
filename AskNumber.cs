@@ -6,7 +6,8 @@
         {
             do
             {
-                Console.WriteLine("Enter amount of seconds from begin of day. Or type \"EXIT\" to terminate process.");
+                Console.WriteLine("Enter amount of seconds from begin of day. Or type \"EXIT\" to" +
+                    " terminate process.");
                 var userAnser = Console.ReadLine();
                 if (userAnser.ToLower() == "exit")
                 {
